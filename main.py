@@ -1,9 +1,13 @@
 name = input("What is thy name? ")
-print ("Hello, ", name)
+print(f"Hello, {name}")
 
-number = int (input("Enter a number: "))
+int = i
+try:
+ number = int(input("Enter a number: "))
 
-for i in range(10):
+ number (i * 1)
+print (number)
 
-    print (number)
+except ValueError:
+       print("thats not a valid number. Please try again")
 
